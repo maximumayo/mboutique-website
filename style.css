@@ -1,0 +1,536 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*header style*/
+
+header {
+    width: 100%;
+    height: 10vh;
+    display: inline-block;
+    background-color: #fffabe;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header img {
+    position: relative;
+    padding-top: 20px;
+}
+
+header ul {
+    text-transform: uppercase;
+    font-size: 16px;
+    list-style-type: none;
+    float: right;
+    position: relative;
+    top: 15%;
+    padding-right: 40px;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+header ul li a {
+    color: #515151;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: #d42551;
+}
+
+#welcome_picture {
+    /*height: 1000px;*/
+    width: 400px;
+}
+
+.main_content {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6A6969;
+}
+
+.main_content h2 {
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.main_content p {
+    font-size: 14px;
+}
+
+.left_side {
+    float: left;
+    width: 30%;
+    position: relative;
+    top: 130px;
+    left: 60px;
+}
+
+.right_side {
+    float: left;
+    width: 65%;
+}
+
+.all_days .day {
+    height: 140px;
+    width: 126px;
+    background-color: #fffabe;
+    position: relative;
+    display: inline-block;
+}
+
+.day ul.menu_text {
+    list-style-type: none;
+    position: relative;
+    bottom: 73px;
+    right: 33px;
+}
+
+.menu_pics li {
+    margin: 10px;
+    list-style-type: none;
+    position: relative;
+    bottom: 85px;
+    left: 40px;
+}
+
+.day_menu {
+    height: 33px;
+    width: 126px;
+    background-color: #824603;
+    margin-top: 111px;
+}
+
+.day_menu_2 {
+    height: 33px;
+    width: 126px;
+    background-color: #fffabe;
+    margin-top: 111px;
+}
+
+.day_menu_3 {
+    height: 33px;
+    width: 126px;
+    background-color: #df5277;
+    margin-top: 111px;
+}
+
+.day_menu_5 {
+    height: 33px;
+    width: 126px;
+    background-color: #a2304e;
+    margin-top: 111px;
+}
+
+.day_menu_7 {
+    height: 33px;
+    width: 126px;
+    background-color: #c39005;
+    margin-top: 111px;
+}
+
+.menu_text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    float: left;
+    position: relative;
+    top: 10px;
+    margin-left: 2px;
+    color: #6a6969;
+}
+
+.menu_text li:nth-child(odd) {
+    margin-bottom: 15px;
+}
+
+.menu_text li:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+.day_name {
+    font-size: 14px;
+}
+
+.menu_text li.odd_color {
+    color: #ffffff;
+}
+
+.all_days {
+    margin-left: 1px;
+    display: inline-block;
+    height: 150px;
+}
+
+.day {
+    margin-left: 10px;
+}
+
+ul.menu_pics {
+    position: absolute;
+}
+
+footer {
+    height: 80px;
+    width: 1000px;
+    background-color: #df5277;
+    margin: 15px 0px;
+    display: inline-block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+footer div {
+    width: 33%;
+    height: 80%;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+#email {
+    bottom: 15px;
+}
+
+#email img {
+    margin-right: 10px;
+}
+
+#phone {
+    top: 15px;
+}
+
+#phone img {
+    margin-right: 15px;
+}
+
+#follow img {
+    margin-left: 15px
+}
+
+#follow {
+    bottom: 15px;
+}
+
+/*our macarons page style*/
+
+div#our_macarons_content {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6A6969;
+    position: relative;
+    left: 3%;
+    background-image: url("assets/images/our-macarons-background.png");
+    background-repeat: no-repeat;
+}
+
+#our_macarons_content h2 {
+    font-size: 20px;
+    padding-top: 10%;
+    padding-bottom: 25px;
+}
+
+#our_macarons_content h3 {
+    padding-top: 3%;
+    padding-bottom: 25px;
+}
+
+#our_macarons_content p {
+    font-size: 14px;
+    width: 90%;
+}
+
+/*gifts and parties style*/
+
+div#gifts_parties_content {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6A6969;
+    position: relative;
+    left: 3%;
+    background-image: url("assets/images/gifts-parties-background.png");
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+}
+
+#gifts_parties_content h2 {
+    font-size: 20px;
+    padding-top: 10%;
+    padding-bottom: 25px;
+}
+
+#gifts_parties_content h3 {
+    padding-top: 3%;
+    padding-bottom: 25px;
+}
+
+#gifts_parties_content p {
+    font-size: 14px;
+    width: 90%;
+}
+
+p#party_tower {
+    font-size: 14px;
+    width: 50%;
+}
+
+span#order {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #df5277;
+}
+
+/*contact page style*/
+
+div#contact_main {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+div#contact_left {
+    display: inline-block;
+    width: 33%;
+    position: relative;
+    height: 100%;
+    padding: 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6A6969;
+}
+
+div#contact_left h2 {
+    position: relative;
+    left: 10%;
+    margin-bottom: 18%;
+}
+
+div#contact_left ul li {
+    list-style-type: none;
+    font-size: 14px;
+    margin: 0px;
+}
+
+div#contact_center {
+    display: inline-block;
+    width: 33%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6A6969;
+}
+
+div#contact_right {
+    display: inline-block;
+    width: 25%;
+}
+
+.data, .data #text {
+    position: relative;
+    height: 35px;
+    width: 310px
+}
+
+.data #message {
+    height: 70px;
+    width: 310px
+}
+
+.data #button {
+    width: 155px;
+    left: 49%
+}
+
+form .data {
+    background-color: #f5f5f5;
+}
+
+#head_left {
+    display: inline-block;
+    width: 33%;
+    position: relative;
+    left: 3%;
+}
+
+#head_right {
+    display: inline-block;
+    width: 60%
+}
+
+hr {
+    display: none;
+}
+
+/*style for smaller screens*/
+
+@media screen and (max-width: 375px) {
+
+    body {
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    /*header style*/
+    hr {
+        color: blue;
+    }
+
+    header {
+        width: 100%;
+        height: 13vh;
+        background-color: #fffabe;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header img {
+        position: relative;
+        padding-top: 3%;
+        text-align: center;
+    }
+
+    header ul {
+        width: 100%;
+        text-transform: uppercase;
+        font-size: 2vh;
+        list-style-type: none;
+        float: right;
+        position: relative;
+        top: -10%;
+        padding: 0;
+    }
+
+    header ul li {
+        display: inline-block;
+        margin-right: 1%;
+    }
+
+    header ul li a {
+        color: #515151;
+        text-decoration: none;
+        display: inline-block;
+        padding: 0;
+    }
+
+    #welcome_picture img {
+        display: inline-block;
+        height: 18%;
+        width: 100%;
+    }
+
+    div#contact_left {
+        width: 95%;
+        right: 5%;
+        left: 0;
+    }
+
+    div#contact_center {
+        width: 100%;
+        position: relative;
+        left: 5%;
+    }
+
+    div#contact_right {
+        display: none;
+    }
+
+    .data, .data #text {
+        position: relative;
+        height: 35px;
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .data #message {
+        height: 70px;
+        width: 90%;
+    }
+
+    .data #button {
+        width: 50%;
+        left: 42%
+    }
+
+    form .data {
+        background-color: #f5f5f5;
+    }
+
+    div#contact_left h2 {
+        position: relative;
+        left: 10%;
+        margin-bottom: 13%;
+    }
+
+    h2 {
+        position: relative;
+        left: 10%;
+        margin-bottom: 10%;
+    }
+
+    footer {
+        height: 20%;
+        width: 100%;
+        background-color: #df5277;
+        margin: 15px 0px;
+        display: inline-block;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 2vh;
+    }
+
+    footer div {
+        width: 33%;
+        height: 100%;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+    }
+
+    #email {
+        top: 25px;
+        width: 50%;
+        right: 8px;
+        left: 17px;
+    }
+
+    #email img {
+        margin-right: 3%;
+    }
+
+    #phone {
+        top: 10px;
+        width: 70%;
+        font-size: 2vh;
+        left: 135px;
+    }
+
+    #phone img {
+        margin-right: 3%;
+    }
+
+    #follow img {
+        margin-left: 15px
+    }
+
+    #follow {
+        width: 100%;
+        bottom: 15px;
+        position: relative;
+    }
+
+    p#copyright {
+        width: 100%;
+        position: relative;
+        top: 30px;
+        right: 75px;
+    }
+
+    div#follow {
+        position: relative;
+        bottom: 30px;
+        right: 22px;
+    }
+
+}
