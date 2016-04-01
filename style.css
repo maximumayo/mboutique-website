@@ -327,7 +327,7 @@ div#contact_right {
     width: 25%;
 }
 
-.data, .data #text {
+.data, .data .text {
     position: relative;
     height: 35px;
     width: 310px
