@@ -1,9 +1,15 @@
 # MBoutique
 
-> The MBoutique webstite originally contained 4 seperate pages:
-  - Welcome
-  - Our Macarons
-  - Gifts & Parties
-  - Contact
+## About this site
+  * The MBoutique site originally contained four pages:
+  * Welcome
+  * Our Macarons
+  * Gifts & Parties
+  * Contact
 
-> Using Angular Routes it has been converted to a one page site with 4 different states that take the place of the pages
+### Single Page Application
+  * I used Angular Routes to convert the site to a SPA with four different states
+
+### Project Notes
+  * This project initially was all about html and css
+  * The layout was provided in a design document
