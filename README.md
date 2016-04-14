@@ -12,5 +12,11 @@
 
 ### Project Notes
   * This project initially was all about html and css
-  * The layout was provided in a design document
+  * The layout was provided in design documents
   * Live Demo http://www.maximilianmayo.com/mboutique-website/
+
+### Examples of the design docs used to build the site
+
+![optional description](/assets/images/design1.png?raw=true "optional description")
+![optional description](/assets/images/design2.png?raw=true "optional description")
+
