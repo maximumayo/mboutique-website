@@ -13,7 +13,7 @@
 ### Project Notes
   * This project initially was all about html and css
   * The layout was provided in design documents
-  * Live Demo http://www.maximilianmayo.com/mboutique-website/
+  * Live Demo http://maximumayo.github.io/mboutique-website/#/home
 
 ### Examples of the design docs used to build the site
 
